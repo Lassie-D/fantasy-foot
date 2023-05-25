@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Settings - Fantasy Football App</title>
+        <link rel="stylesheet" type="text/css" href="style_s.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style> 
+            body {
+              background-image: url("logo.PNG");
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: cover;
+              background-color: #cccccc;
+            }
+            </style>
+    </head>
+    <body>
+        <header>
+        <div class="logo">
+            <img src="ac_logo.png" alt="Academic City Logo">
+        </div>
+        <nav>
+            <ul>
+            <li><a href="home_page.html">Home</a></li>
+            <li><a href="player_page.html">Players</a></li>
+            <li><a href="myteam.html">My Team</a></li>
+            <li><a href="Statspage.html">Stats</a></li>
+            <li class = "active"><a href="settings_page.html">Settings</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <h1>Settings</h1>
+            
+            <h2>User Profile Settings</h2>
+            <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            
+
+            <h2>Account Settings</h2>
+            <div class="form-group">
+            <label for="current-password">Current Password</label>
+            <input type="password" id="current-password" name="current-password" placeholder="Enter your current password">
+            </div>
+            <div class="form-group">
+            <label for="new-password">New Password</label>
+            <input type="password" id="new-password" name="new-password" placeholder="Enter your new password">
+            </div>
+            <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your new password">
+            </div>
+            <div class="form-group">
+            <label for="two-factor-auth">Two-Factor Authentication</label>
+            <input type="checkbox" id="two-factor-auth" name="two-factor-auth">
+            </div>
+            <div class="form-group">
+            <label for="account-deactivation">Account Deactivation</label>
+            <input type="checkbox" id="account-deactivation" name="account-deactivation">
+            </div>
+
+            <h2>Notification Settings</h2>
+            <div class="form-group">
+            <label for="email-notifications">Email Notifications</label>
+            <input type="checkbox" id="email-notifications" name="email-notifications">
+            </div>
+            <div class="form-group">
+            <label for="push-notifications">Push Notifications</label>
+            <input type="checkbox" id="push-notifications" name="push-notifications">
+            </div>
+
+            <h2>Privacy Settings</h2>
+            <div class="form-group">
+            <label for="privacy-level">Privacy Level</label>
+            <select id="privacy-level" name="privacy-level">
+                <option value="public">Public</option>
+                <option value="private">Private</option>
+                <option value="custom">Custom</option>
+            </select>
+            </div>
+
+            <h2>Appearance and Theme Settings</h2>
+            <div class="form-group">
+            <label for="theme-selection">Theme Selection</label>
+            <select id="theme-selection" name="theme-selection">
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+                <option value="custom">Custom</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <label for="font-size">Font Size</label>
+            <select id="font-size" name="font-size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            </div>
+
+
+            <h2>Accessibility Settings</h2>
+            <div class="form-group">
+            <label for="screen-reader">Screen Reader</label>
+            <input type="checkbox" id="screen-reader" name="screen-reader">
+            </div>
+            <div class="form-group">
+            <label for="keyboard-navigation">Keyboard Navigation</label>
+            <input type="checkbox" id="keyboard-navigation" name="keyboard-navigation">
+            </div>
+            <div class="form-group">
+            <label for="color-contrast">Color Contrast</label>
+            <input type="checkbox" id="color-contrast" name="color-contrast">
+            </div>
+
+
+ 
+        </div>
+        </main>
+    </body>
+</html>

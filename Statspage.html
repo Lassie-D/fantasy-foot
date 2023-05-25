@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stats - Fantasy Football App</title>
+    <link rel="stylesheet" type="text/css" href="styless.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style> 
+        body {
+          background-image: url("logo.PNG");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-color: #cccccc;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="ac_logo.png" alt="Academic City Logo">
+        </div>
+        <nav>
+            <ul>
+            <li><a href="home_page.html">Home</a></li>
+            <li><a href="player_page.html">Players</a></li>
+            <li><a href="myteam.html">My Team</a></li>
+            <li class = "active" ><a href="Statspage.html">Stats</a></li>
+            <li><a href="settings_page.html">Settings</a></li>
+            </ul>
+        </nav>
+        </header>
+    </body>
+    <main>
+    <div class="container">
+        <h1>Stats</h1>
+
+        <section>
+        <h2>League Table</h2>
+        <section id="league-table">
+            <table>
+            <thead>
+                <tr>
+                    <th>Pos</th>
+                    <th>Team</th>
+                    <th>Initials</th>
+                    <th>P</th>
+                    <th>W</th>
+                    <th>D</th>
+                    <th>L</th>
+                    <th>GF</th>
+                    <th>GA</th>
+                    <th>GD</th>
+                    <th>Pts</th>
+                </tr>
+            </thead>
+            <tbody>   
+                <tr>
+                    <th>1</th>
+                    <th>Vikings</th>
+                    <th>VIK</th>
+                    <th>12</th>
+                    <th>10</th>
+                    <th>0</th>
+                    <th>2</th>
+                    <th>27</th>
+                    <th>7</th>
+                    <th>+20</th>
+                    <th>30</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>Dragons</th>
+                    <th>DRA</th>
+                    <th>12</th>
+                    <th>7</th>
+                    <th>3</th>
+                    <th>2</th>
+                    <th>15</th>
+                    <th>10</th>
+                    <th>+5</th>
+                    <th>24</th>
+                </tr>
+                    <th>3</th>
+                    <th>Elites</th>
+                    <th>ELI</th>
+                    <th>12</th>
+                    <th>5</th>
+                    <th>4</th>
+                    <th>3</th>
+                    <th>15</th>
+                    <th>16</th>
+                    <th>-1</th>
+                    <th>Pts</th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>Lions</th>
+                    <th>LIO</th>
+                    <th>12</th>
+                    <th>3</th>
+                    <th>1</th>
+                    <th>8</th>
+                    <th>10</th>
+                    <th>25</th>
+                    <th>-15</th>
+                    <th>10</th>
+                </tr>
+                <!-- Add more player rows as needed -->
+            </tbody>
+        </table>
+        </section>
+            
+        </section>
+
+        <section>
+        <h2>Top Goalscorers</h2>
+        <section id="top-goalscorers">
+            <table>
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>Team</th>
+                    <th>Num Of Goals</th>
+                </tr>
+            </thead>
+            <tbody>   
+                <tr>
+                    <td>Nathan Aggo</td>
+                    <td>VIK</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Kobby Boateng</td>
+                    <td>ELI</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Ogochukwu</td>
+                    <td>ELI</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+        </table>
+            <!-- Top goalscorers data will be dynamically populated here -->
+        </section>
+        </section>
+
+        <section>
+        <h2>Top Assisters</h2>
+        <section id="top-assisters">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Team</th>
+                        <th>Num Of Assists</th>
+                    </tr>
+                </thead>
+                <tbody>   
+                    <tr>
+                        <td>Ogochukwu</td>
+                        <td>ELI</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Wehdam</td>
+                        <td>LIO</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Brian Sackey</td>
+                        <td>ELI</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!-- Top assisters data will be dynamically populated here -->
+        </section>
+        </section>
+
+        <section>
+        <h2>Most Yellow Cards</h2>
+        <section id="most-yellow-cards">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Team</th>
+                        <th>Yellow Cards</th>
+                    </tr>
+                </thead>
+                <tbody>   
+                    <tr>
+                        <td>Wehdam</td>
+                        <td>LIO</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Nathan Aggo</td>
+                        <td>VIK</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Kwabs</td>
+                        <td>VIK</td>
+                        <td>3</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <!-- Most yellow cards data will be dynamically populated here -->
+        </section>
+        </section>
+
+        <section>
+        <h2>Most Clean Sheets</h2>
+        <section id="most-clean-sheets">
+            <table>
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>Team</th>
+                    <th>Clean Sheets</th>
+                </tr>
+            </thead>
+            <tbody>   
+                <tr>
+                    <td>Akwasi Anto</td>
+                    <td>LIO</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Kwabena Boateng</td>
+                    <td>VIK</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Brian Sackey</td>
+                    <td>ELI</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Nikoi-Kotey Abrahams</td>
+                    <td>DRA</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+            <!-- Most clean sheets data will be dynamically populated here -->
+        </section>
+        </section>
+    </div>
+</main>
+</body>
+</html>

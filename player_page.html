@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Players | ACity Fantasy Football App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylep.css">
+  <style> 
+    body {
+      background-image: url("logo.PNG");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-color: #cccccc;
+    }
+    </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="ac_logo.png" alt="Academic City Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home_page.html">Home</a></li>
+        <li class="active"><a href="player_page.html">Players</a></li>
+        <li><a href="myteam.html">My Team</a></li>
+        <li><a href="Statspage.html">Stats</a></li>
+        <li><a href="settings_page.html">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Players</h1>
+    <form>
+      <label for="search">Search:</label>
+      <input type="text" id="search" name="search">
+      <label for="position">Position:</label>
+      <select id="position" name="position">
+        <option value="">All Positions</option>
+        <option value="GK">Goalkeeper</option>
+        <option value="DEF">Defender</option>
+        <option value="MID">Midfielder</option>
+        <option value="ST">Striker</option>
+      </select>
+      <input type="submit" value="Search">
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Team</th>
+          <th>Bye Week</th>
+          <th>Add to Team</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Akwasi Anto</td>
+          <td>GK</td>
+          <td>Lions</td>
+          <td>12</td>
+          <td><button class="add-to-team-button" data-player-id="1">Add to Team</button></td>
+        </tr>
+        <tr>
+          <td>Kwabena Boateng</td>
+          <td>GK</td>
+          <td>Vikings</td>
+          <td>13</td>
+          <td><button class="add-to-team-button" data-player-id="2">Add to Team</button></td>
+        </tr>
+        <tr>
+          <td>Brian Sackey</td>
+          <td>GK</td>
+          <td>Elites</td>
+          <td>12</td>
+          <td><button class="add-to-team-button" data-player-id="3">Add to Team</button></td>
+        </tr>
+        <tr>
+          <td>Nikoi-Kotey Abrahams</td>
+          <td>GK</td>
+          <td>Dragons</td>
+          <td>12</td>
+          <td><button class="add-to-team-button" data-player-id="4">Add to Team</button></td>
+        </tr>
+        <tr>
+          <td>Kwabs</td>
+          <td>DEF</td>
+          <td>Vikings</td>
+          <td>8</td>
+          <td><button class="add-to-team-button" data-player-id="5">Add to Team</button></td>
+        </tr>
+        <tr>
+          <td>Nathan Aggo</td>
+          <td>FWD</td>
+          <td>Vikings</td>
+          <td>11</td>
+          <td><button class="add-to-team-button" data-player-id="6">Add to Team</button></td>
+        </tr>
+      </tbody>
+    </table
+    
+     
